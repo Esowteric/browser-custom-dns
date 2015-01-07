@@ -13,7 +13,7 @@ As it stands, regular ICANN domain names are resolved to IP addresses by making 
 
 However, GetAddrInfoW() doesn't allow you to specify a custom DNS server. To do that, the DLL has to make a different call to the DNS server using a DNS class's GetARecords() and DnsQuery() functions. Again, the results are passed back to the web browser. What happens, unfortunately, is that these results crash Firefox. So we really need someone to fix that who knows how to handle and marshal unmanaged code and convert between head-scratching C++ code which refers to things like PWSTR and char* and C# code which uses things like string and IntPtr.
 
-So (as it stands) if someone types in a domain like "home.altnet" into their web browser, regular DNS servers will send back an NXDOMAIN response (domain not found). However, it is possible to run your own DNS server (eg Acrylic) to resolve your own non-ICANN domain names. At the mement, you'll find lines in the code that I've hardwired for my own purposes to ".altnet" which you'll want to change or make more generic using the app config.
+So (as it stands) if someone types in a domain like "home.altnet" into their web browser, regular DNS servers will send back an NXDOMAIN response (domain not found). However, it is possible to run your own DNS server (eg Acrylic) to resolve your own non-ICANN domain names. At the moment, you'll find lines in the code that I've hardwired for my own purposes to ".altnet" which you'll want to change or make more generic using the app config.
 
 ## Dynamic IP Address
 
@@ -25,7 +25,7 @@ At the moment, the app also checks with one of my websites to see if the version
 
 ## Alternatives
 
-Of course, if you want to use a custom DNS server, then you can set this system-wide, but I really wanted a system that didn't require people to have to tinker, since it's quite technical and it could mess up their internet connection. It's also possible to point one of the two system-wide DNS server entries to a local DNS proxy like Acrylic. At one point, the Google Chrome had a user-defined DNS facility, but (possibly after some soul-searching and finger-wagging), they quickly removed it. I haven't seen anything else around other than the Comodo browser which allows you to use their (hardwired) secure DNS servers, and another to access the murky depths of the Dark Net. So I believe that there will be demand for this app.
+Of course, if you want to use a custom DNS server, then you can set this system-wide, but I really wanted a system that didn't require people to have to tinker, since it's quite technical and it could mess up their internet connection. It's also possible to point one of the two system-wide DNS server entries to a local DNS proxy like Acrylic. At one point, Google Chrome had a user-defined DNS facility, but (possibly after some soul-searching and finger-wagging), they quickly removed it. I haven't seen anything else around other than the Comodo browser which allows you to use their (hardwired) secure DNS servers, and another to access the murky depths of the Dark Net. So I believe that there will be demand for this app.
 
 ## Installation
 
@@ -37,7 +37,7 @@ First, launch a single instance of the Firefox web browser. Then either run the 
 
 Wait until the console reports that the DLL has been successfully injected, then try out a few addresses in the browser.
 
-If you want to check out non-ICANN domain names, then you'll need to set up a DNS proxy server such as Acrylic on your LAN and point this app at your custom DNS server. The hosts and IPs in the app config file point to my test sites, but most of the time these are offline.
+If you want to check out non-ICANN domain names, then you'll need to set up a DNS server on your LAN and point this app at that. The hosts and IPs in the app config file point to my test sites, but most of the time these are offline.
 
 ## Development
 
