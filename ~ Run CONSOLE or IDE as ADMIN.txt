@@ -1,0 +1,1 @@
+Run the console app (or IDE) as an administrator, or else you'll get an error saying that the EasyHook assembly could not be registered/installed in the GAC.

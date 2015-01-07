@@ -1,0 +1,25 @@
+C:\Users\Public\AltnetDNSIntercept\DNSInterceptConsole\bin\Debug\DNSInterceptConsole.exe
+C:\Users\Public\AltnetDNSIntercept\DNSInterceptConsole\bin\Debug\DNSInterceptConsole.pdb
+C:\Users\Public\AltnetDNSIntercept\DNSInterceptConsole\bin\Debug\EasyHook.dll
+C:\Users\Public\AltnetDNSIntercept\DNSInterceptConsole\bin\Debug\EasyHook.xml
+C:\Users\Public\AltnetDNSIntercept\DNSInterceptConsole\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Public\AltnetDNSIntercept\DNSInterceptConsole\obj\x86\Debug\DNSInterceptConsole.exe
+C:\Users\Public\AltnetDNSIntercept\DNSInterceptConsole\obj\x86\Debug\DNSInterceptConsole.pdb
+C:\AltnetDNSIntercept\DNSInterceptConsole\bin\Debug\DNSInterceptConsole.exe.config
+C:\AltnetDNSIntercept\DNSInterceptConsole\bin\Debug\DNSInterceptConsole.exe
+C:\AltnetDNSIntercept\DNSInterceptConsole\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\AltnetDNSIntercept\DNSInterceptConsole\obj\x86\Debug\DNSInterceptConsole.exe
+C:\AltnetDNSIntercept\DNSInterceptConsole\obj\x86\Debug\DNSInterceptConsole.pdb
+C:\AltnetDNSIntercept\DNSInterceptConsole\bin\Debug\DNSInterceptConsole.pdb
+C:\AltnetDNSIntercept v\DNSInterceptConsole\bin\Debug\DNSInterceptConsole.exe.config
+C:\AltnetDNSIntercept v\DNSInterceptConsole\bin\Debug\DNSInterceptConsole.exe
+C:\AltnetDNSIntercept v\DNSInterceptConsole\bin\Debug\DNSInterceptConsole.pdb
+C:\AltnetDNSIntercept v\DNSInterceptConsole\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\AltnetDNSIntercept v\DNSInterceptConsole\obj\x86\Debug\DNSInterceptConsole.exe
+C:\AltnetDNSIntercept v\DNSInterceptConsole\obj\x86\Debug\DNSInterceptConsole.pdb
+C:\AltnetDNSInterceptGitHub\DNSInterceptConsole\bin\Debug\DNSInterceptConsole.exe.config
+C:\AltnetDNSInterceptGitHub\DNSInterceptConsole\bin\Debug\DNSInterceptConsole.exe
+C:\AltnetDNSInterceptGitHub\DNSInterceptConsole\bin\Debug\DNSInterceptConsole.pdb
+C:\AltnetDNSInterceptGitHub\DNSInterceptConsole\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\AltnetDNSInterceptGitHub\DNSInterceptConsole\obj\x86\Debug\DNSInterceptConsole.exe
+C:\AltnetDNSInterceptGitHub\DNSInterceptConsole\obj\x86\Debug\DNSInterceptConsole.pdb

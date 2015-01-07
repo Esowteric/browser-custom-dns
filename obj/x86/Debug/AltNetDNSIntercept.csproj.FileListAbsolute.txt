@@ -1,0 +1,9 @@
+C:\AltnetDNSIntercept\bin\Debug\AltNetDNSIntercept.exe
+C:\AltnetDNSIntercept\bin\Debug\AltNetDNSIntercept.pdb
+C:\AltnetDNSIntercept\bin\Debug\EasyHook.xml
+C:\AltnetDNSIntercept\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\AltnetDNSIntercept\obj\x86\Debug\AltNetDNSIntercept.MainForm.resources
+C:\AltnetDNSIntercept\obj\x86\Debug\AltNetDNSIntercept.csproj.GenerateResource.Cache
+C:\AltnetDNSIntercept\obj\x86\Debug\AltNetDNSIntercept.exe
+C:\AltnetDNSIntercept\obj\x86\Debug\AltNetDNSIntercept.pdb
+C:\AltnetDNSIntercept\bin\Debug\AltNetDNSIntercept.exe.config

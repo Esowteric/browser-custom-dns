@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+# SharpDevelop 3.2.1.6466
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNSIntercept", "DNSIntercept\DNSIntercept.csproj", "{192F0D96-D011-4DBF-A026-E77CF5A7FB59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNSInterceptConsole", "DNSInterceptConsole\DNSInterceptConsole.csproj", "{FB96946B-CD4D-44F4-B133-31E501383415}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{192F0D96-D011-4DBF-A026-E77CF5A7FB59}.Debug|x86.Build.0 = Debug|x86
+		{192F0D96-D011-4DBF-A026-E77CF5A7FB59}.Debug|x86.ActiveCfg = Debug|x86
+		{192F0D96-D011-4DBF-A026-E77CF5A7FB59}.Release|x86.Build.0 = Release|x86
+		{192F0D96-D011-4DBF-A026-E77CF5A7FB59}.Release|x86.ActiveCfg = Release|x86
+		{FB96946B-CD4D-44F4-B133-31E501383415}.Debug|x86.Build.0 = Debug|x86
+		{FB96946B-CD4D-44F4-B133-31E501383415}.Debug|x86.ActiveCfg = Debug|x86
+		{FB96946B-CD4D-44F4-B133-31E501383415}.Release|x86.Build.0 = Release|x86
+		{FB96946B-CD4D-44F4-B133-31E501383415}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

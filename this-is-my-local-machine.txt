@@ -1,0 +1,2 @@
+Delete this file for production.
+Only use if working on same local area network as the custom DNS nameserver. 

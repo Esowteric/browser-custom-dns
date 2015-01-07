@@ -1,0 +1,33 @@
+C:\AltnetDNSIntercept\DNSIntercept\bin\Debug\DNSIntercept.dll
+C:\AltnetDNSIntercept\DNSIntercept\bin\Debug\DNSIntercept.pdb
+C:\AltnetDNSIntercept\DNSIntercept\bin\Debug\EasyHook.dll
+C:\AltnetDNSIntercept\DNSIntercept\bin\Debug\EasyHook.xml
+C:\AltnetDNSIntercept\DNSIntercept\bin\Debug\DNSInterceptConsole.exe
+C:\AltnetDNSIntercept\DNSIntercept\bin\Debug\DNSInterceptConsole.pdb
+C:\Users\Public\AltnetDNSIntercept\DNSIntercept\bin\Debug\DNSIntercept.dll
+C:\Users\Public\AltnetDNSIntercept\DNSIntercept\bin\Debug\DNSIntercept.pdb
+C:\Users\Public\AltnetDNSIntercept\DNSIntercept\bin\Debug\DNSInterceptConsole.exe
+C:\Users\Public\AltnetDNSIntercept\DNSIntercept\bin\Debug\EasyHook.dll
+C:\Users\Public\AltnetDNSIntercept\DNSIntercept\bin\Debug\EasyHook.xml
+C:\Users\Public\AltnetDNSIntercept\DNSIntercept\bin\Debug\DNSInterceptConsole.pdb
+C:\Users\Public\AltnetDNSIntercept\DNSIntercept\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Public\AltnetDNSIntercept\DNSIntercept\obj\x86\Debug\DNSIntercept.dll
+C:\Users\Public\AltnetDNSIntercept\DNSIntercept\obj\x86\Debug\DNSIntercept.pdb
+C:\AltnetDNSIntercept\DNSInterceptConsole\bin\Debug\DNSIntercept.dll.config
+C:\AltnetDNSIntercept\DNSInterceptConsole\bin\Debug\DNSIntercept.dll
+C:\AltnetDNSIntercept\DNSInterceptConsole\bin\Debug\DNSIntercept.pdb
+C:\AltnetDNSIntercept\DNSIntercept\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\AltnetDNSIntercept\DNSIntercept\obj\x86\Debug\DNSIntercept.dll
+C:\AltnetDNSIntercept\DNSIntercept\obj\x86\Debug\DNSIntercept.pdb
+C:\AltnetDNSIntercept v\DNSInterceptConsole\bin\Debug\DNSIntercept.dll.config
+C:\AltnetDNSIntercept v\DNSInterceptConsole\bin\Debug\DNSIntercept.dll
+C:\AltnetDNSIntercept v\DNSInterceptConsole\bin\Debug\DNSIntercept.pdb
+C:\AltnetDNSIntercept v\DNSIntercept\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\AltnetDNSIntercept v\DNSIntercept\obj\x86\Debug\DNSIntercept.dll
+C:\AltnetDNSIntercept v\DNSIntercept\obj\x86\Debug\DNSIntercept.pdb
+C:\AltnetDNSInterceptGitHub\DNSInterceptConsole\bin\Debug\DNSIntercept.dll.config
+C:\AltnetDNSInterceptGitHub\DNSInterceptConsole\bin\Debug\DNSIntercept.dll
+C:\AltnetDNSInterceptGitHub\DNSInterceptConsole\bin\Debug\DNSIntercept.pdb
+C:\AltnetDNSInterceptGitHub\DNSIntercept\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\AltnetDNSInterceptGitHub\DNSIntercept\obj\x86\Debug\DNSIntercept.dll
+C:\AltnetDNSInterceptGitHub\DNSIntercept\obj\x86\Debug\DNSIntercept.pdb
