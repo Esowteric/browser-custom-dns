@@ -13,7 +13,7 @@ As it stands, regular ICANN domain names are resolved to IP addresses by making 
 
 However, GetAddrInfoW() doesn't allow you to specify a custom DNS server. To do that, the DLL has to make a different call to the DNS server using a DNS class's GetARecords() and DnsQuery() functions. Again, the results are passed back to the web browser. What happens, unfortunately, is that these results crash Firefox. So we really need someone to fix that who knows how to handle and marshal unmanaged code and convert between head-scratching C++ code which refers to things like PWSTR and char* and C# code which uses things like string and IntPtr.
 
-So (as it stands) if someone types in a domain like "home.altnet" into their web browser, regular DNS servers will send back an NXDOMAIN response (domain not found). However, it is possible to run your own DNS server (eg Acrylic) to resolve your own non-ICANN domain names. At the moment, you'll find lines in the code that I've hardwired for my own purposes to ".altnet" which you'll want to change or make more generic using the app config.
+So (as it stands) if someone types in a domain like "home.altnet" into their web browser, regular DNS servers will send back an NXDOMAIN response (domain not found). However, it is possible to run your own DNS server to resolve your own non-ICANN domain names. At the moment, you'll find lines in the code that I've hardwired for my own purposes to ".altnet" which you'll want to change or make more generic using the app config.
 
 ## Dynamic IP Address
 
