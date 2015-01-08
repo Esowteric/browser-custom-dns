@@ -23,3 +23,9 @@ C:\AltnetDNSInterceptGitHub\DNSInterceptConsole\bin\Debug\DNSInterceptConsole.pd
 C:\AltnetDNSInterceptGitHub\DNSInterceptConsole\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\AltnetDNSInterceptGitHub\DNSInterceptConsole\obj\x86\Debug\DNSInterceptConsole.exe
 C:\AltnetDNSInterceptGitHub\DNSInterceptConsole\obj\x86\Debug\DNSInterceptConsole.pdb
+C:\browser-custom-dns\DNSInterceptConsole\bin\Debug\DNSInterceptConsole.exe.config
+C:\browser-custom-dns\DNSInterceptConsole\bin\Debug\DNSInterceptConsole.exe
+C:\browser-custom-dns\DNSInterceptConsole\bin\Debug\DNSInterceptConsole.pdb
+C:\browser-custom-dns\DNSInterceptConsole\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\browser-custom-dns\DNSInterceptConsole\obj\x86\Debug\DNSInterceptConsole.exe
+C:\browser-custom-dns\DNSInterceptConsole\obj\x86\Debug\DNSInterceptConsole.pdb

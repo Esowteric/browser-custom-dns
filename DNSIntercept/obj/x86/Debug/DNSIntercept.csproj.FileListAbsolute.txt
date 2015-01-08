@@ -31,3 +31,9 @@ C:\AltnetDNSInterceptGitHub\DNSInterceptConsole\bin\Debug\DNSIntercept.pdb
 C:\AltnetDNSInterceptGitHub\DNSIntercept\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\AltnetDNSInterceptGitHub\DNSIntercept\obj\x86\Debug\DNSIntercept.dll
 C:\AltnetDNSInterceptGitHub\DNSIntercept\obj\x86\Debug\DNSIntercept.pdb
+C:\browser-custom-dns\DNSInterceptConsole\bin\Debug\DNSIntercept.dll.config
+C:\browser-custom-dns\DNSInterceptConsole\bin\Debug\DNSIntercept.dll
+C:\browser-custom-dns\DNSInterceptConsole\bin\Debug\DNSIntercept.pdb
+C:\browser-custom-dns\DNSIntercept\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\browser-custom-dns\DNSIntercept\obj\x86\Debug\DNSIntercept.dll
+C:\browser-custom-dns\DNSIntercept\obj\x86\Debug\DNSIntercept.pdb
