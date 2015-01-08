@@ -15,6 +15,8 @@ However, GetAddrInfoW() doesn't allow you to specify a custom DNS server. To do 
 
 So (as it stands) if someone types in a domain like "home.altnet" into their web browser, regular DNS servers will send back an NXDOMAIN response (domain not found). However, it is possible to run your own DNS server to resolve your own non-ICANN domain names. At the moment, you'll find lines in the code that I've hardwired for my own purposes to ".altnet" which you'll want to change or make more generic using the app config.
 
+I've added a setting so that custom DNS can be used on all domains ("all") or a single domain (eg ".abc").
+
 ## Dynamic IP Address
 
 For my own purposes, I'm running my test DNS server with a dynamic IP address, so the first thing that the app does -- given a host name for the custom DNS server -- is obtain its IP address. You may well want to add an IP address (like Google DNS's 8.8.8.8) to the app config, but I'd appreciate it if you would leave this dynamic IP check in as at least an optional facility.
