@@ -133,8 +133,10 @@ namespace DNSIntercept
         static DateTime DateTimeMinusFiveMinutes = DateTime.Now.AddMinutes(-5);
         static DateTime DateTimeMinusOneMinute = DateTime.Now.AddMinutes(-1);
         static string AppBasePath = System.Configuration.ConfigurationManager.AppSettings.Get("AppBasePath");
+        // The DLL can't see app settings. Will have to hardwire for now.
         //static string AltNetHost = System.Configuration.ConfigurationManager.AppSettings.Get("AltNetHost");
         //static string AltNetLocalServerAddress = System.Configuration.ConfigurationManager.AppSettings.Get("LocalServerAddress");
+        // static string UseCustomDNSForDomain = System.Configuration.ConfigurationManager.AppSettings.Get("UseCustomDNSForDomain");
         static bool LocalMachine = false;
         static Int32 NSTimeOut = Convert.ToInt32(System.Configuration.ConfigurationManager.AppSettings.Get("NSTimeOut"));
         static Int32 AltNetNSTimeOut = Convert.ToInt32(System.Configuration.ConfigurationManager.AppSettings.Get("AltNetNSTimeOut"));
@@ -312,10 +314,22 @@ namespace DNSIntercept
             if (nodename != "")
             {
             	// LogMessage("InterceptDNS_Hooked: nodename: " + nodename + ".");
-            	if (nodename.IndexOf(".altnet") == nodename.Length - 7)
+            	// UseCustomDNSForDomain is "all" or a domain like ".abc" with a leading dot.
+            	// App settings aren't seen here, so hardwired:
+            	string UseCustomDNSForDomain = ".altnet";
+            	if (UseCustomDNSForDomain.Equals("all"))
+            	{
+            		result_status = GetAddrInfoW(
+                	nodename,
+                	servicename,
+                	ref hints,
+                	out ptrResults);
+            		return result_status;
+            	}
+            	else if (nodename.IndexOf(UseCustomDNSForDomain) == nodename.Length - UseCustomDNSForDomain.Length)
             	{
             		// LogMessage("===START ALTNET DOMAIN LOOKUP==================");
-            		LogMessage(nodename + " is an AltNet domain.");
+            		LogMessage(nodename + " will use custom DNS lookup.");
             		
             		// .altnet domain, do our own lookup.
             		// The results crash Firefox, but not if set to IntPtr.Zero ...
