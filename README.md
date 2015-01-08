@@ -1,5 +1,5 @@
 # browser-custom-dns
-Inject a DLL into web browser's GetAddrInfoW() to use custom DNS
+Inject / hook a DLL into web browser's GetAddrInfoW() to use custom DNS
 
 Firstly, a dislaimer: I'm a total newbie at GitHub and also know very little about C#.NET (I usually write in VB.NET, PHP, JS; etc). So please be patient with me. If you're looking for something that will work straight out of the box, then sorry, this app is not what you're looking for. However, if you're willing to rip the guts out of it, then it might be right up your street.
 
@@ -7,7 +7,7 @@ And secondly, at the moment, there's a big "but": As it stands, while regular DN
 
 ## What it should do
 
-This C#.NET project injects a DLL into GetAddrInfoW() on a single running instance of the Firefox web browser (and it may also be made to work with Chrome).
+This C#.NET project hooks a DLL into GetAddrInfoW() on a single running instance of the Firefox web browser (and it may also be made to work with Chrome).
 
 As it stands, regular ICANN domain names are resolved to IP addresses by making another call to GetAddrInfoW() from within the injected DLL and passing back the results to the web browser. That bit works okay.
 
