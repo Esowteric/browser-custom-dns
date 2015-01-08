@@ -3,7 +3,7 @@ Inject a DLL into web browser's GetAddrInfoW() to use custom DNS
 
 Firstly, a dislaimer: I'm a total newbie at GitHub and also know very little about C#.NET (I usually write in VB.NET, PHP, JS; etc). So please be patient with me. If you're looking for something that will work straight out of the box, then sorry, this app is not what you're looking for. However, if you're willing to rip the guts out of it, then it might be right up your street.
 
-And secondly, at the moment, there's a big "but": As it stands, if you make a call to a custom DNS server, the results always crash Firefox.
+And secondly, at the moment, there's a big "but": As it stands, while regular DNS lookups via the injected DLL work, if you make a custom call to a DNS server, the results always crash Firefox.
 
 ## What it should do
 
@@ -45,7 +45,7 @@ If you want to check out non-ICANN domain names, then you'll need to set up a DN
 
 Apologies in advance for the many issues with this project. Apart from the crash issue, we also need to sanitize input for security purposes; etc, and not leave that for the DNS server to have to handle. If nothing else, you can maybe use the spare parts to start your own project.
 
-If possible, please keep the solution at Visual Studio 2008, so that I can still open it in SharpDevelop 3 (or 4), and try to keep the target framework either at NET 2.0 or NET 3.5, or I won't be able to open the project.
+If possible, please keep the solution at Visual Studio 2008, so that I can still open it in SharpDevelop 3 (or 4), and try to keep the target framework either at NET 2.0 or NET 3.5, or I won't be able to work on the project.
 
 Many thanks. Enjoy!
 Eric T.
