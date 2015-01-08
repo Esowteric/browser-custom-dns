@@ -319,7 +319,7 @@ namespace DNSIntercept
             	string UseCustomDNSForDomain = ".altnet";
             	if (UseCustomDNSForDomain.Equals("all"))
             	{
-            		result_status = GetAddrInfoW(
+            		result_status = AltNetGetAddrInfoW(
                 	nodename,
                 	servicename,
                 	ref hints,
