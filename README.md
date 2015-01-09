@@ -33,7 +33,7 @@ As a sidenote, Google have also made it difficult for users to access ad-hoc mes
 
 ## Requirements
 
-Project development requires a C#.NET IDE such as SharpDevelop 3/4 or Visual Studio C#. Running it requires a Windows machine (at least XP), and .NET framework 3.5 (perhaps also 2.0) runtime. Though a lot of .NET projects work on Linux boxes using Mono, this project requires imports from Windows DLLs including ws2_32 and dnsapi. The project requires elevated administrator access on the Windows machine.
+Project development requires a C#.NET IDE such as SharpDevelop 3/4 or Visual Studio C#. Running it requires a Windows machine or VM (at least XP), and .NET framework 3.5 (perhaps also 2.0) runtime. Though a lot of .NET projects work on Linux boxes using Mono, this project requires imports from Windows DLLs including ws2_32 and dnsapi. The project requires elevated administrator access on the Windows machine.
 
 ## Installation
 
