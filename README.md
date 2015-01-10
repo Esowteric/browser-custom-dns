@@ -29,7 +29,7 @@ At the moment, the app also checks with one of my websites to see if the version
 
 Of course, if you want to use a custom DNS server, then you can set this system-wide, but I really wanted a system that didn't require people to have to tinker, since it's quite technical and it could mess up their internet connection. It's also possible to point one of the two system-wide DNS server entries to a local DNS proxy like Acrylic. At one point, Google Chrome had a user-defined DNS facility, but (possibly after some soul-searching and finger-wagging), they quickly removed it. I haven't seen anything else around other than the Comodo browser which allows you to use their (hardwired) secure DNS servers, and another to access the murky depths of the Dark Net. So I believe that there will be demand for this app.
 
-As a sidenote, Google have also made it difficult for users to access ad-hoc mesh networks on Android devices, even though such networks have proved useful in crises and emergencies. It seems -- no doubt for their own good reasons -- that they don't want people to work "off the grid".
+As a sidenote, Google have also made it difficult for users to access ad-hoc mesh networks on Android devices, even though such networks have proved useful in crises and emergencies. It seems -- no doubt for their own good reasons -- that they don't want people to work "off the grid". You can find out more about the philosophy and context behind developing this project in a recent blog post about [off-the-grid networking](http://mystical-faction.blogspot.co.uk/2015/01/technical-off-grid-networking-project.html).
 
 ## Requirements
 
@@ -55,3 +55,5 @@ If possible, please keep the solution at Visual Studio 2008, so that I can still
 
 Many thanks. Enjoy!
 Eric T.
+
+[My Facebook profile](https://www.facebook.com/eric.twose).
