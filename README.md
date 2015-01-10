@@ -1,4 +1,4 @@
-# Web browser custom dns
+# Web browser custom DNS
 This C#.NET project injects / hooks a DLL into a web browser's GetAddrInfoW() to use custom DNS. You can set up the app to use custom DNS on all domains or on a single domain, and you can point it at a DNS server that handles non-ICANN domains.
 
 Firstly, a dislaimer: I'm a total newbie at GitHub and also know very little about C#.NET (I usually write in VB.NET, PHP, JS; etc). So please be patient with me. If you're looking for something that will work straight out of the box, then sorry, this app is not what you're looking for. However, if you're willing to rip the guts out of it, then it might be right up your street.
@@ -17,7 +17,7 @@ If someone types in a domain like "home.altnet" into their web browser, regular 
 
 I've added a setting so that custom DNS can be used on all domains ("all") or a single domain (eg ".abc").
 
-## Dynamic IP Address
+## Dynamic IP address
 
 For my own purposes, I'm running my test DNS server with a dynamic IP address, so the first thing that the app does -- given a host name for the custom DNS server -- is obtain its IP address. You may well want to add an IP address (like Google DNS's 8.8.8.8) to the app config, but I'd appreciate it if you would leave this dynamic IP check in as at least an optional facility.
 
