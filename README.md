@@ -37,7 +37,7 @@ Project development requires a C#.NET IDE such as SharpDevelop 3/4 or Visual Stu
 
 ## Installation
 
-You should find all the referenced DLLs in the console's /bin/debug/ folder. It builds okay with SharpDevelop 3 (and hopefully with Visual Studio C#).
+You should find all the referenced DLLs and the console executbale in the console's /bin/debug/ folder. It builds okay with SharpDevelop 3 (and hopefully with Visual Studio C#). The console executable and the intercept DLL will probably be outdated, so build before running the console.
 
 ## Running the injector
 
