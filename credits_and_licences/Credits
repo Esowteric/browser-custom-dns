@@ -1,11 +1,20 @@
 Credits:
 
+1. EasyHook:
+
 This project uses the EasyHook DLL
 Copyright (C) 2009 Christoph Husse & (C) 2014 Justin Stenning
 http://easyhook.codeplex.com/
 
-It also uses the DnsA Class (for A records) modified from the original MX record example:
+2. DNS record query class:
+
+The project also uses the DnsA Class (for A records) modified from the original MX record example:
 "Build a C# DNS MX (Mail Exchange) Record Query Class" by Peter A. Bromberg, Ph.D.
 http://www.eggheadcafe.com/articles/20050129.asp.
 A more legible version can be found in the comments at:
 http://technet.microsoft.com/eS-es/library/ms682016.aspx
+
+3. Application world globe icon:
+
+Original image source: https://openclipart.org/detail/20584/world-globe-by-maidis
+Author: maidis.
