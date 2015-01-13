@@ -1,5 +1,5 @@
 # Web browser custom DNS
-This C#.NET project injects / hooks a DLL into a web browser's GetAddrInfoW() to use custom DNS. You can set up the app to use custom DNS on all domains or on a single domain, and you can point it at a DNS server that handles non-ICANN domains.
+This C#.NET project injects / hooks a DLL into a web browser's GetAddrInfoW() to use custom DNS. You can set up the app to use custom DNS on all domains or on a single domain, and you can point it at a DNS server that handles non-ICANN domains. This may be useful, for example, with ad-hoc wireless mesh networks set up in times of crisis or disaster.
 
 Firstly, a dislaimer: I'm a total newbie at GitHub and also know very little about C#.NET (I usually write in VB.NET, PHP, JS; etc). So please be patient with me. If you're looking for something that will work straight out of the box, then sorry, this app is not what you're looking for. However, if you're willing to rip the guts out of it, then it might be right up your street.
 
@@ -29,7 +29,7 @@ At the moment, the app also checks with one of my websites to see if the version
 
 Of course, if you want to use a custom DNS server, then you can set this system-wide, but I really wanted a system that didn't require people to have to tinker, since it's quite technical and it could mess up their internet connection. It's also possible to point one of the two system-wide DNS server entries to a local DNS proxy like Acrylic. At one point, Google Chrome had a user-defined DNS facility, but (possibly after some soul-searching and finger-wagging), they quickly removed it. I haven't seen anything else around other than the Comodo browser which allows you to use their (hardwired) secure DNS servers, and another to access the murky depths of the Dark Net. So I believe that there will be demand for this app.
 
-As a sidenote, Google have also made it difficult for users to access ad-hoc mesh networks on Android devices, even though such networks have proved useful in crises and emergencies. It seems -- no doubt for their own good reasons -- that they don't want people to work "off the grid". You can find out more about the philosophy and context behind developing this project in a recent blog post about [off-the-grid networking](http://mystical-faction.blogspot.co.uk/2015/01/technical-off-grid-networking-project.html).
+As a sidenote, Google have also made it difficult for users to access ad-hoc mesh networks on Android devices, even though such networks have proved useful in crises and disaster. It seems -- no doubt for their own good reasons -- that they don't want people to work "off the grid". You can find out more about the philosophy and context behind developing this project in a recent blog post about [off-the-grid networking](http://mystical-faction.blogspot.co.uk/2015/01/technical-off-grid-networking-project.html).
 
 ## Requirements
 
