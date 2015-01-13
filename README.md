@@ -1,5 +1,5 @@
 # Web browser custom DNS
-This C#.NET project injects / hooks a DLL into a web browser's GetAddrInfoW() to use custom DNS. You can set up the app to use custom DNS on all domains or on a single domain, and you can point it at a DNS server that handles non-ICANN domains. This may be useful, for example, with ad-hoc wireless mesh networks set up in times of crisis or disaster.
+This C#.NET project injects / hooks a DLL into a web browser's GetAddrInfoW() to use custom DNS. You can set up the app to use custom DNS on all domains or on a single domain, and you can point it at a DNS server that handles non-ICANN domains. This may be useful, for example, with community-based networks and ad-hoc wireless mesh networks set up in times of crisis or disaster.
 
 Firstly, a dislaimer: I'm a total newbie at GitHub and also know very little about C#.NET (I usually write in VB.NET, PHP, JS; etc). So please be patient with me. If you're looking for something that will work straight out of the box, then sorry, this app is not what you're looking for. However, if you're willing to rip the guts out of it, then it might be right up your street.
 
